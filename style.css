@@ -231,14 +231,13 @@ header nav ul li.btn a:hover {
   display: flex;
   align-items: center;
   gap: 200px;
-  margin-bottom: 15px;
   justify-content: center;
-  border: 7px solid #444444; /* цвет обводки */
-  border-radius: 25px; /* закругление углов */
-  background-color: #646464; /* цвет фона */
+  border: 7px solid #444444;
+  border-radius: 25px;
+  background-color: #646464;
   padding: 25px;
   max-width: 1600px;
-  margin: 20px auto;
+  margin-top: 20px;
 }
 
 .update .btn {
@@ -268,4 +267,16 @@ header nav ul li.btn a:hover {
     text-align: center;
     color: #fff;
     margin: 0;
+}
+
+.update__info {
+    text-align: center;
+    font-size: 30px;
+    border: 7px solid #444444;
+    border-radius: 25px;
+    background-color: #646464;
+    max-width: 500px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
