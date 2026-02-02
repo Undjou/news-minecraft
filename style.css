@@ -33,7 +33,7 @@ img {
     width: 1600px;
     margin: 0 auto;
 }
-
+/*навигация*/
 header {
     padding: 50px 0;
 }
@@ -85,7 +85,7 @@ header nav ul li.btn a {
 header nav ul li.btn a:hover {
     background: #ca0505;
 }
-
+/*Новое обновление*/
 .hero {
     padding-bottom: 100px;
     position: relative;
@@ -132,13 +132,14 @@ header nav ul li.btn a:hover {
     transform: scale(1.1);
 }
 
-.hero img {
+.hero video {
     position: absolute;
     top: 40px;
     right: 50px;
     width: 45%;
+    border-radius: 15px;
 }
-
+/*Популярные версии*/
 .trending {
     padding-top: 50px;
 }
@@ -153,12 +154,6 @@ header nav ul li.btn a:hover {
     text-decoration: none;
     padding: 3px 7px;
     color: #ffffff;
-    transition: all 50ms ease;
-}
-
-.games:not(.btn):not(.active) a:hover {
-    border: 2px solid #ca0505;
-    border-radius: 100px;
 }
 
 .trending .games {
@@ -173,7 +168,7 @@ header nav ul li.btn a:hover {
     text-align: center;
     margin-top: 10px;
 }
-
+/*Цитата*/
 .big-text p {
     color: #fff;
     padding: 50px 0;
@@ -182,7 +177,7 @@ header nav ul li.btn a:hover {
     text-align: center;
     width: 800px;
 }
-
+/*Спидранеры*/
 .features {
     background: url('img/spidran.jpg') no-repeat center center;
     background-size: cover;
@@ -226,7 +221,7 @@ header nav ul li.btn a:hover {
 .features .info .block img:not(.img1):hover {
     scale: calc(1.5);
 }
-
+/*Версии*/
 .update {
   display: flex;
   align-items: center;
@@ -280,7 +275,7 @@ header nav ul li.btn a:hover {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
+/*Модальное окно*/
 .modal {
     position: fixed;
     left: 0;
@@ -340,15 +335,18 @@ header nav ul li.btn a:hover {
     transform: scale(1);
 }
 
-.history__p {
-   padding-left: 170px;
-   padding-right: 170px;
-   line-height: 170%;
-   font-size: 20px;
-}
+/*История создания*/
 
 .history h1 {
-    color: #fff;
     text-align: center;
-    padding-bottom: 25px;
+    font-size: 50px;
+}
+
+.history__p {
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 30px;
+    text-align: left;
+    line-height: 170%;
+    font-size: 20px;
 }
