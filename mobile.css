@@ -30,11 +30,12 @@ img {
 }
 
 .container {
-    width: 420px;
+    width: 400px;
     margin: 0 auto;
 }
 
 header {
     display: flex;
     justify-content: center;
+
 }
