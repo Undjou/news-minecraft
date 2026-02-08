@@ -14,6 +14,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 ul {
@@ -51,8 +52,8 @@ header h1 {
 .modal {
     position: fixed;
     left: 0;
-    top: -296px;
-    width: 70vw;
+    top: -260px;
+    width: 62vw;
     height: 100vh;
     z-index: 5;
     display: grid;
@@ -83,4 +84,18 @@ header h1 {
 
 .modal.open .modal__box {
     transform: scale(1);
+}
+
+.modal__close {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #fff;
+    background: #cc7a00;
+    margin-top: 20px;
+}
+
+nav {
+    font-size: 20px;
+    line-height: 170%;
 }
