@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Определение устройства</title>
     <script>
-        //Определение мобильного устройства
         function isMobileDevice() {
             return (window.innerWidth <= 768) || 
                    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -12,10 +11,8 @@
         
         window.onload = function() {
             if (isMobileDevice()) {
-                // Загружаем мобильную версию
                 window.location.href = "Mobile/mobile.html";
             } else {
-                // Загружаем ПК версию
                 window.location.href = "PC/index1.html";
             }
         };
