@@ -90,15 +90,6 @@ header h1 {
     cursor: pointer;
 }
 
-.modal__close img {
-    transition: transform 350ms;
-}
-
-
-.modal__close:hover img {
-    transform: scale(1.3);
-}
-
 .modal.open {
     visibility: visible;
     opacity: 1;
@@ -110,4 +101,5 @@ header h1 {
 
 nav {
     font-size: 25px;
+    color: #8b8b8b;
 }
