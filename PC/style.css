@@ -335,6 +335,18 @@ header nav ul li.btn a:hover {
     transform: scale(1);
 }
 
+.modal__box .img3 {
+    left: -100px;
+    border-radius: 15px;
+}
+
+.modal__box .img2 {
+    left: 100px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
 /*История создания*/
 
 .history h1 {
@@ -350,3 +362,4 @@ header nav ul li.btn a:hover {
     line-height: 170%;
     font-size: 20px;
 }
+
