@@ -25,7 +25,7 @@ img {
 }
 
 .wrapper {
-    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 31%, rgba(84, 50, 2, 1) 100%);
+    background: linear-gradient(180deg,rgb(7, 0, 44) 31%, rgb(12, 0, 119) 100%);
     width: 100%;
 }
 
@@ -66,24 +66,24 @@ header nav ul li.active::after {
     display: block;
     width: 40px;
     height: 3px;
-    background: #ff5e00;
+    background: #0066ff;
     border-radius: 10px;
 }
 
 header nav ul li:not(.btn):not(.active) a:hover {
-    border-bottom: 3px solid #ff5e00;
+    border-bottom: 3px solid #0066ff;
     transition: all 90ms ease;
 }
 
 header nav ul li.btn a {
-    background: #ff5e00;
+    background: #341eff;
     padding: 9px 17px;
     border-radius: 9px;
     transition: all 350ms ease;
 }
 
 header nav ul li.btn a:hover {
-    background: #ca0505;
+    background: #0066ff;
 }
 /*Новое обновление*/
 .hero {
@@ -178,11 +178,7 @@ header nav ul li.btn a:hover {
     width: 800px;
 }
 /*Спидранеры*/
-.features {
-    background: url('img/spidran.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 80px 0;
-}
+
 
 .features h3, p {
     margin-top: 20px;
@@ -190,7 +186,7 @@ header nav ul li.btn a:hover {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    color: #161616;
+    color: #ffffff;
 }
 
 .features h3 {
