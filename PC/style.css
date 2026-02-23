@@ -218,59 +218,16 @@ header nav ul li.btn a:hover {
     scale: calc(1.5);
 }
 /*Версии*/
-.update {
-  display: flex;
-  align-items: center;
-  gap: 200px;
-  justify-content: center;
-  border: 7px solid #444444;
-  border-radius: 25px;
-  background-color: #646464;
-  padding: 25px;
-  max-width: 1600px;
-  margin-top: 20px;
+
+.alpha {
+    margin-left: 700px;
+    border: 3px solid #030169;
+    background-color: #0300ac;
+    border-radius: 20px;
+    padding: 10px 40px;
+    width: 100px;
 }
 
-.update .btn {
-    cursor: pointer;
-    background: #ff5e00;
-    color: #fff;
-    border-radius: 50px;
-    padding: 13px 23px;
-    border: 0;
-    transition: all 350ms ease;
-    font-size: 16px;
-    float: right;
-    align-items: center;
-}
-
-.update .btn:hover {
-    scale: calc(1.1);
-    background: #ca0505;
-}
-
-.update h1 {
-    text-align: left;
-    margin: 0;
-}
-
-.update p {
-    text-align: center;
-    color: #fff;
-    margin: 0;
-}
-
-.update__info {
-    text-align: center;
-    font-size: 30px;
-    border: 7px solid #444444;
-    border-radius: 25px;
-    background-color: #646464;
-    max-width: 500px;
-    margin-left: 550px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
 /*Модальное окно*/
 .modal {
     position: fixed;
