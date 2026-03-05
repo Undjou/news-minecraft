@@ -88,12 +88,21 @@ header nav ul li.btn a:hover {
 
 /*Версии*/
 
+.update {
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;     /* Располагаем блоки вертикально (в колонку), как у вас сейчас */
+    align-items: center;        /* Выравниваем блоки по горизонтали по центру */
+    width: 80%;
+}
+
 .version {
-    border: 3px solid #030169;
-    background-color: #0300ac;
+    border: 3px solid #020083;
+    background-color: #010058;
     border-radius: 20px;
     padding: 10px 40px;
-    width: 250px;
+    width: 1400px;
+    margin-bottom: 15px;
 }
 
 .version h2 {
