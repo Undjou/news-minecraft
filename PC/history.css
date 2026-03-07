@@ -16,10 +16,6 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-}
-
 img {
     max-width: 100%;
 }
@@ -90,14 +86,46 @@ header nav ul li.btn a:hover {
 
 .history h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #ff6868;
 }
 
-.history__p {
-    padding-left: 170px;
-    padding-right: 170px;
-    padding-bottom: 30px;
+.history p {
     text-align: left;
+    margin-left: 170px;
+    margin-right: 100px;
+    font-weight: 500;
     line-height: 170%;
-    font-size: 20px;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.color-text {
+    color: #ffac68;
+}
+
+.history h2 {
+    color: #ffac68;
+    text-align: left;
+    margin-left: 170px;
+    font-size: 30px;
+}
+
+.ul1 {
+    text-align: left;
+    margin-left: 170px;
+    margin-right: 140px;
+    font-weight: 500;
+    line-height: 170%;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.history img {
+    margin-left: 170px;
+    width: 30%;
 }
