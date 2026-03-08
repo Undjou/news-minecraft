@@ -125,7 +125,32 @@ header nav ul li.btn a:hover {
     padding-bottom: 25px;
 }
 
-.history img {
-    margin-left: 170px;
-    width: 30%;
+.history1 {
+  display: flex;           /* Располагает блоки по горизонтали */
+  justify-content: center; /* Центрирует по горизонтали */
+  gap: 20px;               /* Отступ между блоками */
+  flex-wrap: wrap;         /* Для адаптивности */
+  align-items: stretch;    /* Растягивает блоки по высоте */
+}
+
+.block {
+  display: flex;
+  flex-direction: column;  /* Вертикальное расположение */
+  width: 30%;              /* Ширина блока */
+}
+
+.block img {
+  width: 100%;             /* Картинка занимает всю ширину блока */
+  height: auto;            /* Сохраняет пропорции */
+  display: block;          
+  margin-top: auto;        /* Отталкивает картинку вверх, если есть свободное место */
+  margin-bottom: 0;        /* Убирает нижний отступ */
+}
+
+.block span {
+  text-align: center;      /* Центрирует текст */
+  font-size: 20px;         
+  padding-top: 10px;       /* Отступ сверху от картинки */
+  margin-top: 0;
+  color: #ffac68;           /* Убирает верхний отступ */
 }
